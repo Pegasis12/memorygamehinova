@@ -1,0 +1,21 @@
+/* css global */
+@import "./global/global.css";
+@import "./home/login.css";
+
+/* home */
+@import "./home/formulario.css";
+
+/* utilitario */
+@import "./utilitario/tipografia.css";
+@import "./utilitario/cores.css";
+@import "./utilitario/componentes.css";
+
+/* game */
+@import "./game/game.css";
+
+/* gameover */
+@import "./gameover/gameover.css";
+
+
+/* ganhou */
+@import "./ganhou/parabens.css";

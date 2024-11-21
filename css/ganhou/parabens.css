@@ -1,0 +1,41 @@
+.ganhou {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 20px;
+  gap: 20px;
+}
+
+.ganhou h1 {
+  text-align: center;
+  color: var(--cor-p1);
+}
+
+.ganhou p {
+  text-align: center;
+  font: 400 2rem/1.2 sans-serif;
+  color: rgb(63, 63, 85);
+}
+
+@media (max-width: 800px) {
+  .ganhou p {
+    font-size: 1.5rem;
+  }  
+}
+
+@media (min-width: 3600px) {
+  .ganhou {
+    gap: 32px;
+  }
+
+  .box-image img {
+    width: 800px;
+    height: 800px;
+  }
+
+  .ganhou p {
+   font-size: 5rem;
+  }
+}

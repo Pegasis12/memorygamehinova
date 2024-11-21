@@ -1,0 +1,24 @@
+input {
+  font-size: 1.75rem;
+  padding: 20px;
+  /* vai até 100% quando der */
+  width: 100%; 
+  /* limita a 600px */
+  max-width: 600px;
+  border-radius: 20px;
+  border: solid 2px var(--cor-p2);
+}
+
+@media (min-width: 3600px){
+  input {
+    font-size: 5rem;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 800px){
+  input {
+    padding: 16px;
+    font-size: 1.5rem;
+  }
+}

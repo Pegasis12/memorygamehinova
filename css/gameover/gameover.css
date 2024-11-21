@@ -1,0 +1,26 @@
+.fim-game {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.fim-game h1 {
+  text-align: center;
+  font: 400 8rem/1.5 "Montserrant", sans-serif;
+  color: red;
+}
+
+@media (min-width: 3600px){
+  .fim-game h1 {
+    font-size: 16rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .fim-game h1 {
+    font-size: 4rem;
+  }
+}

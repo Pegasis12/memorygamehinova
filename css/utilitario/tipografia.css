@@ -1,0 +1,15 @@
+.font-1x {
+  font: 500 3rem/1.2 "Montserrat", sans-serif;
+}
+
+@media (max-width: 800px){
+  .font-1x {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 3600px){
+  .font-1x {
+    font: 500 8rem/1.06 "Montserrat", sans-serif;
+  }
+}
